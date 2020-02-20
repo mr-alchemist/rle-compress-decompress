@@ -2,14 +2,14 @@ import java.io.*;
 
 import storage.FactorArray;
 
-public class Program {
+public class Rle {
 
-	public Program() {
+	public Rle() {
 		
 	}
 
 	public static void main(String[] args) {
-		Program program = new Program();
+		Rle program = new Rle();
 		program.run(args);
 		
 	}

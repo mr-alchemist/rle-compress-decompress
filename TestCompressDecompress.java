@@ -93,7 +93,7 @@ class TestCompressDecompress {
 
 	@Test
 	void test() {
-		Program pr = new Program();
+		Rle pr = new Rle();
 		for(int i = 0; i < dataList.size(); i++) {
 			String fileName = i + ".bin";
 			String comprFileName = fileName + ".rle";
