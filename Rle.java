@@ -112,7 +112,7 @@ public class Rle {
 			byte lastB = 0;
 			int readBufCnt = 0;
 			int cntRLE = 0;
-			byte[] readBuffer = new byte[4096*4096];
+			byte[] readBuffer = new byte[4096];
 			FactorArray<Byte> fa = new FactorArray<Byte>();
 			
 			do {
